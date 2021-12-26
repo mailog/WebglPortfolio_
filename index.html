@@ -19,8 +19,8 @@
         WebGL builds are not supported on mobile devices.
       </div>
       <div id="unity-footer">
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Test Webgl Website</div>
+        <!--<div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">Test Webgl Website</div>-->
       </div>
     </div>
     <script>
@@ -71,7 +71,7 @@
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
-            if (unityInstance)
+            /*if (unityInstance)
                 unityInstance.SetFullscreen(1);
 
             
